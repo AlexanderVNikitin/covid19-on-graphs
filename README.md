@@ -3,7 +3,7 @@
 This repo contains datasets for spatio-temporal prediction of COVID-19 distribution over the US. The US is represented as a graph where the nodes are associated with states, and edges represent the adjacency of the states. 
 
 ## How to use it?
-1. Download raw data from the NY times using [this link] and put it to `./data`.
+1. Download raw data from the NY times using [this link](https://github.com/nytimes/covid-19-data/blob/master/us-states.csv) and put it to `./data`.
 2. Install dependencies: 
 ```python
 pip install networkx==2.8.8 pandas==1.3.5
